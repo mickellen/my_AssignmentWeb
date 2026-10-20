@@ -1,0 +1,38 @@
+<a href="index.html"> Home </a><br>
+<a href="Project.html"> Project</a><br>
+<a href="About me.html"> About Me </a><br>
+<a href="Contact.html"> Contact </a> <br>
+
+<section id="contact" class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>Available for networking opportunities, technical collaborations, and inquiries.</p>
+                <ul class="contact-links">
+                    <li><a href="mailto:">mickellen@gmail.com</a></li>
+                    <li><a href="tel:">+60 17 </a></li>
+                    <li><a href="https://" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+                </ul>
+            </div>
+            
+            <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                    <span class="error-msg" id="name-error">Please enter your name.</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                    <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                    <span class="error-msg" id="message-error">Please enter a message.</span>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
